@@ -1,0 +1,229 @@
+/*========Body Section css (You can Remove it)========*/
+body{
+	/*background:url(img/forms.jpg)  no-repeat center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+
+/*============Form Contents css============*/
+
+/*========Form Box input css========*/
+.box{
+background:rgb(113,113,113);
+width:25%;
+margin:12% auto 4% auto;
+position: relative;
+-webkit-box-shadow: 1px 4px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 4px 7px 0px rgba(0,0,0,0.75);
+opacity:0.8;
+padding:2% 4% 2% 4%;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+/*========Form Avatar input css========
+img{
+margin-top:-90px;
+background:#F0B357;
+width:110px;
+height:110px;
+border-radius:110px;
+border:10px solid rgba(255, 231, 225, 0.5);
+ }
+ */
+/*========Form Title input css========*/
+.title1{
+color:rgb(234,234,234);
+margin-top:-10px;
+font-size:35px;
+font-family: "Segoe UI", sans-serif;
+text-align:center;
+text-decoration:none;
+margin-bottom:10px;
+ }
+ /*========Title Line input css========*/
+ .line{
+ width:50%;
+ border:1px solid rgb(234,234,234);
+ margin-bottom:20px;
+ } 
+/*========Link Heading input css========*/
+form h5{
+text-align:center;
+margin-top:8%;
+font-family: "Segoe UI", sans-serif;
+font-size:15px;
+color:#A8A8A8;
+margin-bottom:7%;
+ }
+/*========Links css========*/
+
+form a{
+color:#F0B357;
+text-decoration:none;
+ }
+form a:hover{
+color:#AAB5A8;
+text-decoration:blink;
+ } 
+ 
+ /*========Passowrd input css========*/
+.text{
+margin:auto;
+left:0px;
+top:0px;
+display:block;
+border:1px solid #D3D3D3 ;
+border-bottom:none;
+border-radius:5px 5px 0px 0px ;
+width:91.5%;
+padding:13px;
+font-family: "Segoe UI", sans-serif;
+font-size:17px;
+font-weight:500;
+color:#6F6F6F;
+transition:all 0.9s ease 0s;
+ }
+/*========Username input css========*/ 
+.username{
+margin:auto;
+left:0px;
+top:0px;
+display:block;
+border:1px solid #D3D3D3 ;
+border-bottom:none;
+width:91.5%;
+padding:13px;
+font-family: "Segoe UI", sans-serif;
+font-size:17px;
+font-weight:500;
+color:#6F6F6F;
+transition:all 0.9s ease 0s;
+ }
+ /*========Passowrd input css========*/ 
+.pass1{
+margin:auto;
+left:0px;
+top:0px;
+display:block;
+border:1px solid #D3D3D3 ;
+border-top:1px solid #DDDDDD;
+width:91.5%;
+border-radius:0px 0px 5px 5px;
+padding:13px;
+font-family: "Segoe UI", sans-serif;
+font-size:17px;
+font-weight:500;
+color:#6F6F6F;
+transition:all 0.9s ease 0s;
+ }
+.reset{
+margin:auto;
+left:0px;
+top:0px;
+display:block;
+border:1px solid #D3D3D3 ;
+border-radius:5px;
+width:91.5%;
+padding:13px;
+font-family: "Segoe UI", sans-serif;
+font-size:17px;
+font-weight:500;
+color:#6F6F6F;
+transition:all 0.9s ease 0s;
+ }
+ 
+ .text:hover{
+  background:rgb(182,182,182);
+ color:rgb(80,80,80);
+ }
+ .username:hover{
+ background:rgb(182,182,182);
+ color:rgb(80,80,80);
+ 
+  }
+.pass1:hover{
+ background:rgb(182,182,182);
+ color:rgb(80,80,80);
+ }
+ .reset:hover{
+ background:#F0B357;
+ color:#fff;
+}
+ 
+ /*========Remember Me Checkbox CSS========*/
+ 
+form input[type=checkbox].css-checkbox
+     {
+	position:absolute; 
+        z-index:-1000; 
+        left:-1000px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height:1px;
+        width:1px;
+        margin:-1px;
+        padding:0;
+        border:0;
+    }
+
+input[type=checkbox].css-checkbox + label.css-label 
+    {
+	padding-left:22px;
+        margin-top:15px;
+	height:17px; 
+	display:inline-block;
+	line-height:17px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:18px;
+        color:#A7A7A7;
+	vertical-align:middle;
+        cursor:pointer;
+    }
+
+input[type=checkbox].css-checkbox:checked + label.css-label
+    {
+	background-position: 0 -17px;
+    }
+	label.css-label {
+	background-image:url(img/check.png);
+       -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+	user-select: none;
+    }
+     
+ /*========Form Button css========*/
+ 
+ .login{
+ margin:auto;
+ left:0px;
+ top:0px;
+ background:rgb(113,113,113);
+ display:block;
+ width:99.5%;
+ margin-top:20px;
+ font-family: "Segoe UI", sans-serif;
+ font-size:25px;
+ color:rgb(234,234,234);
+ padding:7px;
+ text-shadow:1px 1px 1px #C0C0C0;
+ border:none;
+ box-shadow:0px 5px 0px 0px;
+ cursor:pointer;
+ transition: all 0.9s ease 0s;
+ }
+.login:hover
+   {
+background:rgb(182,182,182);
+border-radius:34px;
+box-shadow:0px 0px 0px ;
+font-weight: bold;
+color: rgb(113,113,113);
+ }

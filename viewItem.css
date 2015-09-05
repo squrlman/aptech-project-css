@@ -1,0 +1,57 @@
+#contright
+{
+    float: right;
+    background:#1F75CC;
+    width: 35%;
+    height: 50%;
+    margin: 60px 120px 30px 0;
+}
+ul
+{
+    margin-left: -15px;
+    margin-top: 8px;
+}
+#imgleft
+{
+    float: left;
+    position: relative;
+    width: 35%;
+    height: 50%;
+    margin: 60px 0 30px 100px;
+    clear:none;
+}
+#fot{
+    border: 4px solid #AAB5A8;
+    border-left-color: #2098d1;
+    height: 50%;
+    width: 100%;
+    background:#666;
+    display: block;
+}
+
+#mines{
+     background-color:#D98A13;
+     float: right;
+    height: auto;
+    width: 30%;
+    display: block;
+}
+#cont
+{
+    width:100%;
+    height: 20%;
+    background-color: #066A75;
+    clear: both;
+    margin: 20px 0 0 0;
+    border: 2px solid #000;
+}
+#cont ul{
+    width: 100px;
+}
+#wrp
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    background: #999999;
+}
